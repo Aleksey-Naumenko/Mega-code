@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+
+}
+
+.container1 {
+    background-color: blue;
+}
+
+.container2 {
+    background: yellow;
+}
+
+.container3 {
+    background-color: green;
+}
+
+
+.container4 {
+    background-color: pink;
+}
