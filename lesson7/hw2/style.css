@@ -38,15 +38,30 @@ input[type="text"] {
     background-color: grey;
 }
 
-body > div:nth-child(3) > p {
+body > div:nth-child(5) > p {
     background-color: yellow;
 }
 
-body > div:nth-child(3) > p:last-child {
+body div:nth-child(5) > p:last-child {
     border: 5px white;
 }
 
-body > div:nth-child(3) > em {
+body > div:nth-child(5) em {
     color: white;
     font-size:20px;
 }
+
+/* 
+Give the <body> element a background of #bdc3c7
+Make text of <h1> element #9b59b6
+Make text of all <h2> elements orange
+Make all <li> elements blue
+Change the background on every paragraph to be yellow
+Make all inputs have a 3px solid red border
+Give everything with the class 'hello' a white background
+Give the element with id 'special' a 2px solid blue border
+Make all the <p> that are nested inside of divs 25px font
+Make only inputs with type 'text' have a gray background
+Give both <p> inside the 3rd <div> a yellow background
+Give the 2nd <p> inside the 3rd <div> a 5px white border
+Make the <em> in the 3rd <div> element white and 20px font(font-size:20px) */
