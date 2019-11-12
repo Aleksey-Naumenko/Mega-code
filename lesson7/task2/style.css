@@ -9,7 +9,7 @@ ul > li:first-child > span {
 
 ul > li:last-child > span {
     background-color: black;
-    color: wihte;
+    color: white;
 }
 
 ul > li:nth-child(even) {
