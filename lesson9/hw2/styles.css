@@ -15,9 +15,11 @@ li {
 }
 
 .nvigation {
+    height: 100%;
 }
 
 .nav-list {
+    height: 100%;
     margin-top: 10px;
 }
 
