@@ -14,22 +14,20 @@ li {
     z-index: 1;
 }
 
-/* .nvigation {
-} */
+.nvigation {
+    position: relative;
+}
 
 .nav-list {
-    height: 100%;
-    position: relative;
-    
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%);
 }
 
 .nav-item {
-    position: relative;
     color: white;
     margin-left: 16px;
     display: inline-block;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .content {
