@@ -20,13 +20,14 @@ li {
 
 .nav-list {
     height: 100%;
-    margin-top: 10px;
+    margin: 0;
 }
 
 .nav-item {
     height: 100%;
     color: white;
     margin-left: 16px;
+    padding-top: 10px;
     display: inline-block;
 }
 
