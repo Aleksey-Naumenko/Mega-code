@@ -18,7 +18,9 @@ li {
 } */
 
 .nav-list {
-    margin-top: 10px;
+    height: 100%;
+    position: relative;
+    
 }
 
 .nav-item {
@@ -26,21 +28,24 @@ li {
     color: white;
     margin-left: 16px;
     display: inline-block;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .content {
     background-color: beige;
     height: 5000px;
-    position: relative;
 }
 
 .head {
     width: 200px;
     height: 200px;
     background-color: rgb(0, 209, 112);
-    position: relative;
-    top: 5%;
-    left: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .ear {
