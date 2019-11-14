@@ -30,7 +30,8 @@ p {
 }
 
 .translation {
-    font-weight: 400i;
+    font-weight: 400;
+    font-style: italic;
     color: grey;
 }
 
