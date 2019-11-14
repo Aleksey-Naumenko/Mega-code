@@ -4,14 +4,14 @@
 
 html {
     margin: 32px;
-    font-family: Rboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
 h1 {
     word-spacing: 20px;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 }
 
 .definition {
-    font-weight: 900;
+    font-weight: 700;
     word-spacing: 3px;
     font-size: 24px;
     opacity: 0.8;
