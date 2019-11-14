@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    margin: 16px;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    position: relative;
+}
+
+.tip {
+    display: none;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    z-index: 1;
+}
+
+.text:hover .tip {
+    display: block;
+}
