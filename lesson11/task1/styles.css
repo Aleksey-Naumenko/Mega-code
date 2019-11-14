@@ -1,0 +1,16 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.container :first-child {
+    display: none;
+}
+
+.container :nth-child(2) {
+    visibility: hidden;
+}
+
+.container :last-child {
+    display: block;
+}
+
