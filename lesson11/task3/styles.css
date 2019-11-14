@@ -12,12 +12,12 @@
     background-color: darkgreen;
     opacity: 0.8;
     position: relative;
+    color: white;
 }
 
 .dropdown:hover {
     font-size: 16px;
     opacity: 1;
-    color: white;
     cursor: pointer;
 }
 
