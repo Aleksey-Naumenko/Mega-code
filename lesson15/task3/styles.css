@@ -3,7 +3,7 @@
 }
 
 iframe.my-video {
-    margin: 0 auto 0 100px;
+    margin: 100px auto;
     width: 500px;
     height: 400px;
 }
