@@ -11,14 +11,6 @@
     font-weight: 700;
     font-size: 96px;
     background-image: linear-gradient(45deg, red, yellow);
-
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
-
-
-
-Его можно модифицировать.
-
-Обнулить внешние отступы и задать внутренние 16px для заголовка
-Разместить текст в центре по горизонтали и отобразить в UPPERCASE
-Шрифт - Arial, насыщенность - 700, размер шрифта - 96px
-Цвет шрифта должен быть градиентом от желтого к красному под углом 45 градусов
