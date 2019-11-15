@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+iframe.my-video {
+    margin: 0 auto 0 100px;
+    width: 500px;
+    height: 400px;
+}
