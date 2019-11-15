@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-text {
+    margin: 0;
+    text-align: center;
+    padding: 16px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    background-image: linear-gradient(45deg, red, yellow);
+
+}
+
+
+
+Его можно модифицировать.
+
+Обнулить внешние отступы и задать внутренние 16px для заголовка
+Разместить текст в центре по горизонтали и отобразить в UPPERCASE
+Шрифт - Arial, насыщенность - 700, размер шрифта - 96px
+Цвет шрифта должен быть градиентом от желтого к красному под углом 45 градусов
