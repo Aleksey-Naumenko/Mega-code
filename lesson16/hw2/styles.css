@@ -11,11 +11,11 @@
     display: block;
 }
 
-.languages input{
+.languages * {
     display: inline;
 }
-
-Пусть каждый инпут занимает отдельную строку
+/* date-local перевірити
+ */
 
 textarea с именем story, у которой 5 строк по 30 символов и плейсхолдер "A long time ago..."
 
