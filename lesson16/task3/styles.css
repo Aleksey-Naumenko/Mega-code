@@ -22,7 +22,7 @@ input[type="checkbox"] {
     position: absolute;
     top: 0;
     left: 0;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .checkbox input:checked + .checkmark {
