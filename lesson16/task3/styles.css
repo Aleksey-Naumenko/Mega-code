@@ -7,8 +7,6 @@
     padding-left: 35px;
     font-size: 24px;
     margin: 16px;
-    display: inline-block;
-    width: 305px;
 }
 
 input[type="checkbox"] {
@@ -24,7 +22,6 @@ input[type="checkbox"] {
     position: absolute;
     top: 0;
     left: 0;
-    /* display: inline-block; */
 }
 
 .checkbox input:checked + .checkmark {
