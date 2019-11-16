@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    margin: 16px;
+}
+
+
+
+
+
+Добавьте сдедующие контролы в форму. 
+Элементы форм являются строчными, оберните каждый 
+контрол в <div>, чтобы каждый занимал отдельную строку. 
+Дивам дайте внешний отступ 16px.
+
+Текстовый инпут с именем lastName и значением Emerson
+Инпут type="number" с именем age и значением 17
+Чекбокс с именем agree и текстом Accept terms and conditions
+Радиокнопки с именем gender и опциями Male, Female, Secret. 
+div с радиокнопками обозначте классом .choose-gender
+
+Textarea с именем description и плейсхолдером Write description...
+Добавьте кнопку с типом submit и текстом Submit
