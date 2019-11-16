@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 32px;
+}
+
+.form * {
+    margin: 8px;
+    display: block;
+}
+
+.languages input{
+    display: inline;
+}
+
+Пусть каждый инпут занимает отдельную строку
+
+textarea с именем story, у которой 5 строк по 30 символов и плейсхолдер "A long time ago..."
+
+Радиокнопки с именем language и опциями
+значение - html и текстом HTML
+значение - сss и текстом CSS Выбран
+значение - javascript и текстом JavaScript
+Радиокнопки оберните в элемент с классом languages
+
+
+значение - jquery и текстом jQuery Выбран
