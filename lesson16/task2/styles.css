@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+.control-line, .choose-gender {
+    margin: 16px;
+}
