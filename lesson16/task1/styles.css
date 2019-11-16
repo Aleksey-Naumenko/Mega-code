@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-div {
+.control-line, .choose-gender {
     margin: 16px;
 }
 
