@@ -10,34 +10,34 @@
 </head>
 <body>
     <form class="form">
-        <div><input type="text" name="primaryLanguage" value="HTML" disabled></div>
-        <input type="checkbox" name="agree" id="" disabled>
-        <input type="checkbox" name="like" id="" readonly checked>
-        <div><input type="color" name="favouriteColor" id="" value="#ff7f50"></div>
-        <div><input type="date" name="birthDate" id="" value="2021-01-02"></div>
-        <div><input type="datetime-local" name="birthTime" id="" value="2024-10-04T13:02"></div>
-        <div><input type="email" name="email" id="" placeholder="example@domain.com" required></div>
-        <div><input type="file" name="avatar" id=""></div>
-        <div><input type="month" name="startLearning" id="" value="2020-01"></div>
-        <div><input type="number" name="favouriteNumber" value="17"></div>
-        <div><textarea name="story" id="" cols="30" rows="5" placeholder="A long time ago..."></textarea></div>
-        <div><input type="password" name="password" id="" value="secret"></div>
-        <div class="languages" for="">
-            <input type="radio" name="language" id="html" value="html"><label for="html">HTML</label>
-            <input type="radio" name="language" id="css" value="css" checked><label for="css">CSS</label>
-            <input type="radio" name="language" id="js" value="javascript"><label for="js">JavaScript</label>
+        <div class="form-inp"><input type="text" name="primaryLanguage" value="HTML" disabled></div>
+        <div class="form-inp"><input type="checkbox" name="agree"></div>
+        <div class="form-inp"><input type="checkbox" name="like" readonly checked></div>
+        <div class="form-inp"><input type="color" name="favouriteColor" value="#ff7f50"></div>
+        <div class="form-inp"><input type="date" name="birthDate" value="2021-01-02"></div>
+        <div class="form-inp"><input type="datetime-local" name="birthTime" value="2024-10-04T13:02"></div>
+        <div class="form-inp"><input type="email" name="email" placeholder="example@domain.com" required></div>
+        <div class="form-inp"><input type="file" name="avatar"></div>
+        <div class="form-inp"><input type="month" name="startLearning" value="2020-01"></div>
+        <div class="form-inp"><input type="number" name="favouriteNumber" value="17"></div>
+        <div class="form-inp"><textarea name="story" cols="30" rows="5" placeholder="A long time ago..."></textarea></div>
+        <div class="form-inp"><input type="password" name="password" value="secret"></div>
+        <div class="form-inp languages">
+            <input type="radio" name="language" value="html">HTML
+            <input type="radio" name="language" value="css" checked>CSS
+            <input type="radio" name="language" value="javascript">JavaScript
         </div>
-        <div><input type="range" name="learningProgress" id="" value="30"></div>
-        <div><select name="framework" id="">
+        <div class="form-inp"><input type="range" name="learningProgress" value="30"></div>
+        <div class="form-inp"><select name="framework">
             <option value="react">React</option>
             <option value="jquery" selected>jQuery</option>
             <option value="bootstrap">Bootstrap</option>
         </select></div>
-        <div><input type="search" name="search" id="" placeholder="Type first letters..."></div>
-        <div><input type="time" name="lunchEnd" id="" value="14:01"></div>
-        <div><input type="url" name="website" id="" placeholder="https://website.com" required></div>
-        <div><input type="week" name="birthWeek" id="" value="2021-W51"></div>
-        <div><button type="submit">Save</button></div>
+        <div class="form-inp"><input type="search" name="search" placeholder="Type first letters..."></div>
+        <div class="form-inp"><input type="time" name="lunchEnd" value="14:01"></div>
+        <div class="form-inp"><input type="url" name="website" placeholder="https://website.com" required></div>
+        <div class="form-inp"><input type="week" name="birthWeek" value="2021-W51"></div>
+        <div class="form-inp"><button type="submit">Save</button></div>
     </form>
 </body>
 </html>
