@@ -2,18 +2,16 @@
     box-sizing: border-box;
 }
 
+div {
+    margin: 0;
+}
+
 .form {
     margin: 32px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
-
-/* .form * {
-    display: inline;
-    , textarea, select, button
-} */
-
 
 input {
     margin-bottom: 8px;
@@ -24,35 +22,13 @@ textarea, select, button {
     margin-left: 8px;
 }
 
-select {
-    margin-bottom: 8px; 
-}
-
-/* .form * {
-    margin: 8px;
-    display: block;
-} */
-
-.languages {
-    margin-bottom: 8px; 
+select, textarea, .languages {
+    margin-bottom: 8px;
 }
 
 .languages * {
     display: inline;
-    margin: 0 0 0 8px;
+    /* margin-left: 8px; */
+    /* сильно великий відступ  */
     padding: 0;
 }
-/* text -area штртна довжина
-    у лейблів не повинно бути марджинів
- */
-
-textarea с именем story, у которой 5 строк по 30 символов и плейсхолдер "A long time ago..."
-
-Радиокнопки с именем language и опциями
-значение - html и текстом HTML
-значение - сss и текстом CSS Выбран
-значение - javascript и текстом JavaScript
-Радиокнопки оберните в элемент с классом languages
-
-
-значение - jquery и текстом jQuery Выбран
