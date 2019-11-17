@@ -4,16 +4,18 @@
 
 .form {
     margin: 32px;
-    display: table-caption;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
-.form * {
-    display: block;
-}
+/* .form * {
+    display: inline;
+} */
 
 
 input, textarea, select, button {
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
 /* .form * {
