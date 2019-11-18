@@ -20,13 +20,16 @@ thead {
 }
 
 table, th, td {
-    padding: 4px;
     text-align: right;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
 th, td {
+    padding: 4px;
+}
+
+tr {
     line-height: 40px;
 }
 
