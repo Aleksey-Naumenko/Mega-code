@@ -31,4 +31,5 @@
     animation: moving 2s, blinking 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
