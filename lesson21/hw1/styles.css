@@ -34,14 +34,15 @@ html {
 .nav-list {
     padding: 0;
     list-style-type: none;
-
 }
 
 .nav-list-item {
-    margin: 0.5em;
+    margin:  0.5em 0 0.5em 0;
     padding: 0 0.5em 0 0.5em;
     background-color: #808080;
     line-height: 2em;
+    text-decoration: none;
+    color: #fff;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -50,6 +51,9 @@ html {
 .nav-list-link {
     text-decoration: none;
     color: #fff;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
 }
 
 .section {
@@ -72,7 +76,7 @@ html {
 .css-units {
     color: #8b0000;
     background-color: #e5e5e5;
-    font-size: 1.125rem;
+    font-size: 1.125em;
     font-weight: 700;
 }
 
@@ -85,4 +89,5 @@ html {
     background-color: #e5e5e5;
     padding: 0.5em;
     margin-top: auto;
+    text-align: center;
 }
