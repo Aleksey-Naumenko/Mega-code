@@ -16,8 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: blinking 2s infinite linear;
-
 }
 
 .circle {
@@ -31,9 +29,9 @@
     animation: spinn 2s infinite linear;
 }
 
-/* .spinner-text {
+.spinner-text {
     animation: blinking 2s infinite linear;
-} */
+}
 
 @keyframes blinking {
     0% {
