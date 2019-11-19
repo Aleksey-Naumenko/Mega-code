@@ -112,3 +112,30 @@ html {
         width: 100%;
     }
 }
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .main {
+        flex-wrap: wrap;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 80%;
+    }
+    .news {
+        flex-grow: 1;
+    }
+}
+
+/* @media screen and (min-width: 900px) {
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 60%;
+    }
+    .news {
+        width: 20%;
+    }
+} */
