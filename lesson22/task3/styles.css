@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 section {
     display: flex;
@@ -8,5 +8,5 @@ section {
 
 picture {
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
