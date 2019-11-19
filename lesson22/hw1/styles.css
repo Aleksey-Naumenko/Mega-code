@@ -38,6 +38,7 @@ html {
     line-height: 2em;
     /* можливо малась на увазі висота фонт-сайз */
     margin-bottom: 0.5em;
+    margin-left: 0.5em;
 
     overflow: hidden;
     white-space: nowrap;
