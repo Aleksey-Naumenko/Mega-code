@@ -30,6 +30,7 @@ html {
     width: 20%;
     list-style-type: none;
     padding: 0;
+    margin-top: 24px;
 }
 
 .nav-list-item {
@@ -38,8 +39,6 @@ html {
     line-height: 2em;
     /* можливо малась на увазі висота фонт-сайз */
     margin: 0.5em;
-
-
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
