@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    min-height: 200px;
+    display: flex;
+}
+
+.first {
+    background-color: #ff7f50;
+}
+
+.second {
+    background-color: #006400;
+}
+
+.third {
+    background-color: #0ff;
+}
+
+span {
+    text-transform: lowercase;
+    font-family: Verdana;
+    background-color: #faebd7;
+    border-radius: 4px;
+    padding: 8px;
+    margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .section {
+        display: flex;
+    }
+    .box {
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .section {
+        flex-grow: 2;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
