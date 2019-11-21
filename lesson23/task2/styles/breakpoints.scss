@@ -1,0 +1,32 @@
+$small: 600px;
+$medium: 900px;
+$large: 1200px;
+
+@mixin for-small {
+    @media screen and (max-width: $small - 1) {
+       @content; 
+    }
+}
+
+@mixin for-medium {
+    @media (min-width: $small) and (max-width: $medium - 1) {
+       @content; 
+    }
+}
+
+@mixin for-large {
+    @media (min-width: $medium) and (max-width: $large - 1) {
+       @content; 
+    }
+}
+
+@mixin for-ex-large {
+    @media screen and (min-width: $large) {
+       @content; 
+    }
+}
+@mixin orientation {
+    @media screen and (orientation: landscape) {
+        @content;
+    }
+}
